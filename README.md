@@ -39,5 +39,6 @@ func main() {
 Output:
 ```
 inRange(25) true
+inRange(40) false
 -10..5,7,10,20,30..33,35
 ```
