@@ -176,7 +176,6 @@ func (is IntSet) String() string {
 	// If we were in a range when we ended the loop, add the end of the range
 	if insideRange {
 		fmt.Fprintf(&b, "..%d", keys[len(keys)-1])
-		insideRange = false
 	}
 
 	return b.String()
