@@ -1,3 +1,8 @@
+# numrange: range parsing library
+[![Build Status](https://travis-ci.org/eest/numrange.svg?branch=master)](https://travis-ci.org/eest/numrange)
+[![codecov](https://codecov.io/gh/eest/numrange/branch/master/graph/badge.svg)](https://codecov.io/gh/eest/numrange)
+[![Go Report Card](https://goreportcard.com/badge/github.com/eest/numrange)](https://goreportcard.com/report/github.com/eest/numrange)
+
 A simple library for taking a string such as "-10..5,7,10" and getting a
 set where you can test for inclusion and also add/delete more ranges
 
