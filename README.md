@@ -1,6 +1,8 @@
 A simple library for taking a string such as "-10..5,7,10" and getting a
 set where you can test for inclusion and also add/delete more ranges
 
+Inspired by the [Number::Range](https://metacpan.org/pod/Number::Range) perl module.
+
 Example usage:
 
 ```
